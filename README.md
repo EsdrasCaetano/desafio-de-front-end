@@ -25,6 +25,7 @@
 | Tailwind CSS       | Estilização utilitária            |
 | Jest/RTL           | Testes unitários e de integração  |
 | WeatherAPI         | Dados meteorológicos em tempo real|
+| Docker             | Containerização                   |
 
 ## ✅ Requisitos Cumpridos
 
@@ -45,6 +46,10 @@
 - [x] **Containerização com Docker**  
   _Dockerfile otimizado para produção e desenvolvimento_
 
+## 📋 Pré-requisitos
+- Node.js 18+
+- Conta na [WeatherAPI](https://www.weatherapi.com/)
+- Token API válido
 
 ## 🚀 Como Executar Localmente
 
@@ -64,7 +69,13 @@ Instale as dependências
   npm install
 ```
 
-Inicie o servidor
+Crie um arquivo .env.local na raiz do projeto e configure sua API Key:
+
+```bash
+  API_KEY=seu_token_aqui
+```
+
+Inicie o servidor de desenvolvimento:
 
 ```bash
   npm run dev
