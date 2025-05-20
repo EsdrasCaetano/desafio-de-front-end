@@ -63,3 +63,33 @@ Inicie o servidor
 ```bash
 npm run test
 ```
+
+
+### Destaques da adição Docker:
+1. **Posicionamento estratégico**: Após a execução local e antes dos testes
+2. **Comandos essenciais**:
+   - Build da imagem
+   - Execução básica
+   - Opção de desenvolvimento com compose
+3. **Formatação consistente** com o resto do documento
+4. **Ícone de Docker** (🐳) para fácil identificação
+
+
+
+## 🐳 Executando com Docker
+
+O projeto está containerizado para maior portabilidade:
+
+### Build e Execução
+
+# Construir a imagem
+
+```bash
+docker build -t desafio-de-front-end .
+````
+
+# Rodar o container (produção)
+
+```bash
+docker run -p 3000:3000 desafio-de-front-end
+````
