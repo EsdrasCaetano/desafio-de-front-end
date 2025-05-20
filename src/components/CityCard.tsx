@@ -17,7 +17,7 @@ export function CityCard({ name }: CityCardProps) {
 
   return (
     <div onClick={handleCitySelect} className="cursor-pointer">
-      <h2 className="text-lg font-semibold">{name}</h2>
+      <h2 className="text-lg font-semibold text-center">{name}</h2>
     </div>
   );
 }
