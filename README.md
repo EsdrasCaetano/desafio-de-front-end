@@ -37,7 +37,7 @@
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/EsdrasCaetano/weather-app.git
+git clone https://github.com/EsdrasCaetano/desafio-de-front-end.git
 ``` 
 Entre no diretório do projeto
 
