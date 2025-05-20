@@ -134,7 +134,7 @@ export default function WeatherClient({ initialWeather }: { initialWeather?: Wea
       data-testid="weather-client-container"
     >
       <div className="flex-wrap rounded-xl text-center w-93.75 sm:w-135 md:w-128">
-        <h1 className="text-2xl font-bold m-0 font-light" data-testid="city-name">
+        <h1 className="text-2xl  m-0 font-light" data-testid="city-name">
           {weatherData.location.name}
         </h1>
         <p className="text-sm m-0 font-extralight" data-testid="weather-condition">
