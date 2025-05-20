@@ -27,11 +27,24 @@
 | WeatherAPI         | Dados meteorológicos em tempo real|
 
 ## ✅ Requisitos Cumpridos
-- [x] Integração com API meteorológica
-- [x] Testes unitários (85% de cobertura)
-- [x] Layout fiel ao design proposto
-- [x] Deploy automatizado na Vercel
-- [x] Responsividade em 3 breakpoints
+
+- [x] **Integração com API meteorológica**  
+  _Consumo eficiente da WeatherAPI com tratamento de erros_
+
+- [x] **Testes unitários (85% de cobertura)**  
+  _Jest + Testing Library com mocks de API_
+
+- [x] **Layout fiel ao design proposto**  
+  _Implementação pixel-perfect do Figma_
+
+- [x] **Deploy automatizado na Vercel**  
+  _CI/CD integrado com GitHub_
+
+- [x] **Responsividade em 3 breakpoints**  
+  _Mobile (375px), Tablet (768px), Desktop (1440px)_
+- [x] **Containerização com Docker**  
+  _Dockerfile otimizado para produção e desenvolvimento_
+
 
 ## 🚀 Como Executar Localmente
 
